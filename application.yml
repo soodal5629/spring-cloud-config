@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000 # 하루짜리 토큰
-  secret: my_token_application_changed#2
+  secret: user_service_token_application
 
 gateway:
   ip: 10.131.153.2
