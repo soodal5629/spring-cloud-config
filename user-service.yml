@@ -3,7 +3,7 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb # jpa -> 테이블 자동 생성
     username: sa
-    password: '{cipher}fbbbb89eb4babedfebe4258891c90247d7c1f17b1ba219c5df885b2ee4438f22' # {cipher}는 암호화된 글자라는 것을 명시
+    password: '{cipher}fbbbb89eb4babedfebe4258891c90247d7c1f17b1ba219c5df885b2ee4438f22_wrong' # {cipher}는 암호화된 글자라는 것을 명시 (원래 pwd = 1234)
 
 token:
   expiration_time: 86400000 # 하루짜리 토큰
