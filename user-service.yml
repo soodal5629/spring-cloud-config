@@ -3,7 +3,8 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb # jpa -> 테이블 자동 생성
     username: sa
-    password: '{cipher}fbbbb89eb4babedfebe4258891c90247d7c1f17b1ba219c5df885b2ee4438f22' # {cipher}는 암호화된 글자라는 것을 명시 (원래 pwd = 1234)
+    password: '{cipher}AQBH4Ttq7B5SW1VhvRwp6b0ka1q1lv1GDi9ZdhgTtOhwjo/TKOAeR84sivQYKGCsYTedjcPWSB4IG9OzccgPaUp/xyvGm+Xj65QLQS4wl/QEW7tH31RsI/iy1biJyl1CheIom+RKphigBzX9ZRF/WogjTT/JJqlDI0n8gdga5FhGV2y8wvAbztlgUigEfkojqh1/uoFL6X0UkGCfSn6NxxUEMtWOfocwzO9c1U9FqXNMyh2PZE3eSEatxCLvzBxs6cRqSi4Eg/BU5N/OmNJthOoaRTakQSnsQ/675v8/UKiA4j7bMR2lvWaloIPVwP2p57t/gQvcy6Yt/mIXCdnnnAvp0aaih2WYuPklphp/X8sF1cx6VS4/1ucw3DTYSnU3iDA=' # 비대칭키 암호화
+#    password: '{cipher}fbbbb89eb4babedfebe4258891c90247d7c1f17b1ba219c5df885b2ee4438f22' # {cipher}는 암호화된 글자라는 것을 명시 (원래 pwd = 1234) // 대칭키
 
 token:
   expiration_time: 86400000 # 하루짜리 토큰
