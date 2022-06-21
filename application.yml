@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000 # 하루짜리 토큰
-  secret: user_service_token_application
+  secret: '{cipher}AQC59/4WivCG0c0gWnHdO2TwocFrlsfNhtdWlpSVYwUrSh5lEilbLWuyChAtkq7RgeGa0zT314Cduvj8qUvO9pUQ6aunl1Rl9/NHYushR+Mb4DnelYYHWR/A7y9aGqut5XVM/FUBc9IKv1JZWKO0tD8mzhL2DTUJP7BZ27/CF2LkrSwqaQ0EsQtpV68mPFfmxByzn709yzC1qG5rtonIr8p+m+s9JQoQ0m2/KB59YESFesVgFrA8I+PmvRHUgtUUk2QZbnd8yqtApiCOF0zjNsQhJObMsC9ExWicNmfn9BjAQQqzPru7o36FpdWLic+1b25fHyzgeH4pxkFnsE02hcTGzfHODL2MNkziUe+fXBBxcffPm8YUbbJqOpF1iZmtISvKorG+nJHcLQuTOdcDittC'
 
 gateway:
   ip: 10.131.153.2
