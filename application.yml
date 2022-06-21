@@ -1,6 +1,9 @@
+# 모든 yml 파일의 공통 정보를 여기다 몰아넣을 수 있음
+# 모든 구성 파일의 상위개념에 해당하는 파일이 해당 application.yml 파일임
+
 token:
   expiration_time: 86400000 # 하루짜리 토큰
-  secret: '{cipher}AQC59/4WivCG0c0gWnHdO2TwocFrlsfNhtdWlpSVYwUrSh5lEilbLWuyChAtkq7RgeGa0zT314Cduvj8qUvO9pUQ6aunl1Rl9/NHYushR+Mb4DnelYYHWR/A7y9aGqut5XVM/FUBc9IKv1JZWKO0tD8mzhL2DTUJP7BZ27/CF2LkrSwqaQ0EsQtpV68mPFfmxByzn709yzC1qG5rtonIr8p+m+s9JQoQ0m2/KB59YESFesVgFrA8I+PmvRHUgtUUk2QZbnd8yqtApiCOF0zjNsQhJObMsC9ExWicNmfn9BjAQQqzPru7o36FpdWLic+1b25fHyzgeH4pxkFnsE02hcTGzfHODL2MNkziUe+fXBBxcffPm8YUbbJqOpF1iZmtISvKorG+nJHcLQuTOdcDittC'
+  secret: '{cipher}AQC59/4WivCG0c0gWnHdO2TwocFrlsfNhtdWlpSVYwUrSh5lEilbLWuyChAtkq7RgeGa0zT314Cduvj8qUvO9pUQ6aunl1Rl9/NHYushR+Mb4DnelYYHWR/A7y9aGqut5XVM/FUBc9IKv1JZWKO0tD8mzhL2DTUJP7BZ27/CF2LkrSwqaQ0EsQtpV68mPFfmxByzn709yzC1qG5rtonIr8p+m+s9JQoQ0m2/KB59YESFesVgFrA8I+PmvRHUgtUUk2QZbnd8yqtApiCOF0zjNsQhJObMsC9ExWicNmfn9BjAQQqzPru7o36FpdWLic+1b25fHyzgeH4pxkFnsE02hcTGzfHODL2MNkziUe+fXBBxcffPm8YUbbJqOpF1iZmtISvKorG+nJHcLQuTOdcDittC' # 원래 값은 user_service_token_application
 
 gateway:
   ip: 10.131.153.2
